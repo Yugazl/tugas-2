@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(46,47,48);
+}
+ span {
+    color: whitesmoke;
+ }
+ a {
+    color: blue;
+ }
+ header .navbar {
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ hr {
+   color: grey;
+ }
+ .navbar li:hover {
+   color: #fff;
+ }
+ .navbar li {
+    margin: 10px;
+ }
+ .hm::after {
+   left: 35%;
+   width: 277px;
+   height: 2px;
+   background-color: blue;
+   content: "";
+   position: absolute;
+   bottom: 750px;
+ }
+ .hn::after {
+   right: 35%;
+   width: 277px;
+   height: 2px;
+   background-color: grey;
+   content: "";
+   position: absolute;
+   bottom: 750px;
+ }
+ .menu {
+    display: flex;
+    justify-content: center;
+ }
+ .menu h3 {
+    margin: 50px;
+ }
+ .login {
+    margin-left: 35%;
+    justify-content: center;
+    align-items: center;
+ }
+ .login input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46%;
+    height: 40px;
+    border: 0;
+    background-color: darkgrey;
+ }
+ .kata {
+    display: flex;
+    justify-content: center;
+ }
+ a {
+    display: flex;
+    text-align: right;
+    justify-content: center;
+    margin-left: 430px;
+ }
+ .kata {
+    text-align: right;
+ }
+ .kata button {
+    width: 30%;
+    height: 40px;
+    border: 0;
+    background-color: blue;
+    border-radius: 5px;
+ }
+ p {
+    display: flex;
+    justify-content: center;
+ }
+ .media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+ }
+ .media button {
+   border-color: white;
+    margin: 10px;
+    width: 5%;
+    height: 40px;
+    text-align: center;
+    color: white;
+ }
+ .fotbar {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+ }
+ .fotbar li {
+    margin: 10px;
+    margin-left: 5px;
+ }
+ .fotbar .logo {
+   display: flex;
+ }
+ .fotbar .icon {
+   display: flex;
+   padding-top: 5px;
+ }
